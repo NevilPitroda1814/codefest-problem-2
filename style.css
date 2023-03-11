@@ -1,0 +1,157 @@
+/* Header CSS  */
+header{
+    background-image: url('header_img.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo_icon{
+    text-align: center;
+}
+li{
+    display: inline;
+    padding: 10px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+li a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #373739 ;
+    border-radius: 10px;
+}
+.search_btn input{
+    border: none;
+}
+.search_btn p{
+    align-items: center;
+    border-radius: 50px;
+    background-color: white;
+    float: right;
+    padding: 8px;
+    margin-right: 10%;
+}
+.header_section{
+    padding-left: 15%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+.txt_quotes{
+    height: 80%;
+    background-color: #d1770076;
+    color: white;
+    border-radius: 10px;
+    margin-top: 30%;
+    padding: 40px;
+    text-align: center;
+    font-size: 12px;
+}
+.header_main_txt{
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+.header_main_txt img{
+    width: 100%;
+    margin-left: 10%;
+}
+.header_main_txt p{
+    margin-left: 10%;
+}
+.header_main_txt button{
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 50px 50px;
+    padding:5px 10px;
+    color: white;
+    margin-left: 10%;
+}
+/* blank section */
+.blnk_section {
+    height: 100px;
+    background-color: black;
+}
+/* section text */
+.txt_section{
+    padding:5% 10% 5% 10%;
+    text-align: center;
+    background-color: #ffaf3c;
+}
+.section_heading{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.section_text{
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 8px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+}
+
+/* Footer css */
+footer{
+    background-image: url('footer_bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 25%;
+}
+.footer_heading{
+    text-align: center;
+    padding: 20px;
+}
+.about{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+.about h4{
+    text-align: center;
+    padding-top: 8%;
+}
+.about hr{
+    background-color: black;
+}
+.about p{
+    text-align: left;
+}
+.learn_more{
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 50px 50px;
+    padding:5px 10px;
+    color: black;
+}
+.footer_heading h3{
+    font-weight: bold;
+    color: black;
+}
+
+/* For Responsive.... */
+
+@media (max-width:767px) {
+    .header_main_txt img{
+        margin-left: -10%;
+    }
+    .header_main_txt button{
+        margin-left: -10%;
+    }
+    .header_main_txt p{
+        margin-left: -10%;
+        font-size: x-small;
+    }
+    .search_btn input{
+        width: 50%;
+        height: 5%;
+    }
+    .section_heading h4{
+        font-size: 10px;
+    }
+    .section_text p{
+        font-size: 5px;
+    }
+  
+}
