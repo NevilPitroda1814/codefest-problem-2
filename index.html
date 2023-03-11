@@ -14,11 +14,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     
 </head>
-<body>
+<body class="container-fluid">
     <!-- header start -->
     <header>
         <div class="logo_icon">
-            <img src="logo_icon.svg" alt="main logo" width="3%">YOUR LOGO
+            <img src="mlogo.png" alt="main logo" width="20%">
         </div>
         <!-- Main Menu -->
         <div class="row">
@@ -31,31 +31,33 @@
                     <li><a href="#">gallery</a></li>
                     <li><a href="#">Contacts</a></li>
                 </ul>
+                
             </div>
             <!-- search Bar -->
-            <div class="col-md-6">
-                <input type="search">
+            <div class="col-md-6 search_btn">
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaf3c" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                      </svg>
+                      <input type="search" placeholder="Search">
+                </p>
+               
             </div>
         </div>
         <!-- Header section -->
-        <section class="row">
-            <div class="col-md-6">
+        <section class="row header_section">
+            <div class="col-md-6 txt_quotes">
                 <!-- star image -->
-                <img src="" alt="">
+                <img src="star.png" alt="" width="30%">
                 <!-- text -->
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est eum ipsam veniam obcaecati harum asperiores rerum ipsa?</p>
-                <span>QUOTES -</span>
+                <span>- QUOTES -</span>
             </div>
-            <div class="col-md-6">
-                <img src="" alt="">
-                <h2>Hike more</h2>
-                <div class="row">
-                    <div class="col-4"><hr></div>
-                    <div class="col-4">Worry Less</div>
-                    <div class="col-4"><hr></div>
-                </div>
+
+            <div class="col-md-6 header_main_txt">
+                <img src="header_logo.png" alt="">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur saepe nisi ducimus dignissimos amet qui quo debitis.</p>
-                <button>Learn More</button>
+                <button >Learn More</button>
             </div>
         </section>
     </header>
@@ -65,9 +67,10 @@
         <div class="blnk_section">
             <!-- blank part -->
         </div>
+        <!-- section text -->
         <section class="txt_section">
             <div class="section_heading">
-                <h3>1000+ Route.1 Million Heakers.Memorable Memories.</h3>
+                <h4>1000+ Route.1 Million Heakers. <br> Memorable Memories.</h4>
             </div>
             <div class="section_text">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem qui atque corporis, totam facilis adipisci quaerat suscipit natus! Deserunt, delectus.</p>
@@ -85,19 +88,19 @@
                 <h4>Beginner</h4>
                 <hr>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis officia illum qui, natus veniam repellat.</p>
-                <button>Learn More</button>
+                <button class="learn_more">Learn More</button>
             </div>
             <div class="col-md-4">
-                <h4>Beginner</h4>
+                <h4>Experienced</h4>
                 <hr>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis officia illum qui, natus veniam repellat.</p>
-                <button>Learn More</button>
+                <button class="learn_more">Learn More</button>
             </div>
             <div class="col-md-4">
-                <h4>Beginner</h4>
+                <h4>Expert</h4>
                 <hr>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis officia illum qui, natus veniam repellat.</p>
-                <button>Learn More</button>
+                <button class="learn_more">Learn More</button>
             </div>
         </div>
     </footer>
